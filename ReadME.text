@@ -1,0 +1,29 @@
+BootStrap Server file - BootStrap.java
+
+Remaining files - CAN Node files
+
+Step 1: Run BootStrap.java in the separate machine to start BootStrap Server.
+	Command : java BootStrap
+
+Step 2: Place remaining files in the other machines which has to join CAN system.
+
+step 3: Run CANNode.java file on the machine to join CAN system.
+	Command : java CANNode “BootStrap Sever IP Address”
+
+step 4: If the Node joins CAN system. 
+	MESSAGE : Joined CAN System Successfully is displayed
+
+step 5: After joining the CAN network following options are displayed
+	1:Peer Information			2:Leave
+
+Step 6: Select option 1 to see its neighboring nodes information
+
+Step 7: Select option 2 to leave the CAN Network (System.)
+	MESSAGE : Left CAN System Successfully is displayed
+
+Peer Information Displays IP address and VID of the neighboring Nodes.
+
+** BootStrap server runs on port 8000.
+** CANNode runs on port 8001.
+
+** File Insert Option is not available.
